@@ -10,9 +10,8 @@ for i in range (1,numeroPaquetes+1):
     costo= volumen*5
     if alto>30:
         costo=costo+2000
-        print(costo)
     if costo>10000:
-            costo=costo+(costo*0.19)
+        costo=costo+(costo*0.19)
     print(volumen)
     print(costo)
     costoTotal=costoTotal+costo
